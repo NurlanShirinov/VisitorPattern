@@ -99,6 +99,9 @@ namespace VisitorPattern
 
 
 
+
+
+
     public class InvoiceNotificationSender : INotificationSender
     {
         public void Accept(IVisitor visitor)
